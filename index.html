@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/icon.png" />
+    <title>E-commerce</title>
+  </head>
+  <body>
+    <header class="">
+      <div class="container">
+        <figure class="box__logo">
+          <img class="logo" src="img/icon.png" alt="">
+          <figcaption>
+            - commerce
+          </figcaption>
+        </figure>
+        <nav>
+          <ul class="filters"></ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <ul class="showcase"></ul>
+
+      <aside>
+        <form class="search">
+          <input type="text" placeholder="Digite aqui sua pesquisa" />
+          <button>Pesquisar</button>
+        </form>
+
+        <section class="cart">
+          <h2 class="cart__title">Carrinho de compras</h2>
+
+          <main>
+            <div class="call">
+              <p>Carrinho vázio</p>
+              <small>Adicione itens</small>
+            </div>
+            <ul class="my-items hidden">
+            </ul>
+          </main>
+
+          <footer class="cart__resume hidden">
+            <p>
+              <span>Quantidade:</span>
+              <span class="resume__number"></span>
+            </p>
+            <p>
+              <span>Total:</span>
+              <span class="resume__value"></span>
+            </p>
+          </footer>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="footer__page">
+      <div class="container">
+        <figure class="box__logo">
+          <img class="logo" src="img/icon.png" alt="">
+          <figcaption>
+            - commerce
+          </figcaption>
+        </figure>
+        <a href="https://www.linkedin.com/in/maikol-lourencon/" target="_blank"> Maikol Lourençon dos Santos</a>
+      </div>
+    </footer>
+
+    <script src="./js/database.js"></script>
+    <script src="js/templates.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
